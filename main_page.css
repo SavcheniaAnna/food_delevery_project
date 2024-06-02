@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Roboto&display=swap');
+            html {overflow-x:  hidden;}
+            body{
+                margin: 0px;
+                background-color: #E5E5E5;
+            }
+            #first_main_part{
+                width: 100vw;
+                height: 100vh;
+                background-image: url('img/main_background.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            #menu{
+                background-color: black;
+                opacity: 0.7;
+                height: 10%;
+            }
+            #navbar li {display: inline;}
+
+            #navbar a{
+                padding: 15px 100px;
+                text-decoration: none;
+                color:white;
+                
+                display: inline-block;
+                font-family: 'Roboto', sans-serif;
+            }
+            #icon{
+                position: relative;
+                left: 60px;
+                bottom: -5px;
+            }
+            #account{
+                position: relative;
+                left: 1240px; 
+                bottom: 53px;     
+            }
+
+            #main_text1 {
+                position: absolute;
+                width: 568px;
+                height: 75px;
+                left: 530px;
+                top: 200px;
+                color: #FFFFFF;
+            }
+            #main_text2{
+                position: absolute;
+                width: 347px;
+                height: 65px;
+                left: 620px;
+                top: 277px;
+                color: #FF6115;
+            }
+            .main_text{
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 45px;
+                line-height: 75px;
+            }
+
+            #main_text3{
+                position: absolute;
+                width: 76px;
+                height: 27px;
+                left: 670px;
+                top: 385px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 20px;
+                color: #FFFFFF;
+            }
+
+            #button_selectMenu, #button_selectMenu2{
+                position: relative;
+                left: 45vw; 
+                bottom: -490px;  
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 15px;
+                background: #FF6115;
+                border-radius: 5px;
+                padding: 12px 37px;
+            }
+
+            #discount_10{
+                position: relative;
+                left: 180px; 
+                bottom: -150px; 
+            }
+            #would h2{
+                position: absolute;
+                width: 140px;
+                height: 38px;
+                left: 45vw;
+                bottom: -20vh;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 30px;
+                padding-top: 10vh;
+            }
+            #would_left{
+                position: absolute;
+                left: 10vw;
+                bottom: -60vh;
+            }
+            #would_left p, #would_right p, .howItWork_text{
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+            }
+            .numbers{
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 44px;
+            }
+            #would_right{
+                position: absolute;
+                left: 60vw;
+                bottom: -55vh;
+            }
+            #arrow{
+                position: absolute;
+                left: 47vw;
+                bottom: -70vh;
+            }
+            #would_text2{
+                position: absolute;
+                width: 330px;
+                height: 30px;
+                left: 81vh;
+                top: 83vw;
+                font-family: 'Merriweather';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+            }
+            #button_would{
+                position: absolute;
+                left: 44vw;
+                bottom: -96vh;
+                padding: 10px 52px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                background: #F75C03;
+                border-radius: 5px;
+                border: none;
+            }
+            #mainIconEjik{
+                position: relative;
+                left: 43vw;
+                top:110vh;
+            }
+            #is{
+                position: absolute;
+                left: 55vw;
+                top:214vh;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 41px;
+            }
+            #plus, #plus1, #plus2, #plus3, #plus4, #plus5{
+                position: absolute;
+                width: 270px;
+                height: 125px;
+                background-color: #2F333D;
+                border-radius: 5px;
+            }
+            #plus{
+                left: 10vw;                      
+                bottom:-160vh;
+            }
+            #plus1{
+                left: 40vw;                       
+                bottom:-160vh;
+            }
+            #plus2{
+                left: 70vw;                       
+                bottom:-160vh; 
+            }
+            #plus3{
+                left: 10vw;                      
+                bottom:-200vh;
+            }
+            #plus4{
+                left: 40vw;                       
+                bottom:-200vh;
+            }
+            #plus5{
+                left:70vw;
+                bottom: -200vh;
+            }
+            #plus_text, #plus1_text, #plus2_text, #plus3_text, #plus4_text, #plus5_text{
+                display: inline-block;             
+            }
+            #fact, #fact1, #fact2, #fact3, #fact4,#fact5{
+                position: absolute;
+                left:90px;
+                bottom: 60px;
+                font-family: 'Merriweather';
+                font-weight: 400;                      
+                font-size: 17px;
+                color: #FF6115;
+            }
+            #plus img, #plus1 img, #plus2 img, #plus3 img, #plus4 img, #plus5 img{
+                position: absolute;
+                top:35px;              
+                left: 20px;
+            }
+            #fact_text, #fact1_text, #fact2_text, #fact3_text, #fact4_text, #fact5_text{
+                position: absolute;
+                left:90px;
+                top:50px;
+                font-family: 'Open Sans';
+                font-weight: 400;             
+                font-size: 13px;
+                color: #FFFFFF;
+            }
+            #howItWork{
+                width: 98vw;
+                height: 40vw;
+                position: absolute;
+                top:315vh;
+            }
+            #question{
+                position: absolute;
+                width: 281px;
+                height: 38px;
+                left: 2vw;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 38px;
+            }
+            #dishes{
+                padding-left: 5vw;
+                padding-top: 18vh;
+            }
+            .numbers2{
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 44px;
+                padding: 20px;
+            }
+            #note{
+                position: absolute;
+                left: 88px;
+
+                width: 544px;
+                height: 28px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+            }
+            #fourth{
+                padding-top: 25px;
+            }
+            #how_right{
+                position: absolute;
+                left: 44vw;
+                bottom: 17vh;
+            }
+            #how_allText{
+                padding-top: 15vh;
+            }
+            #star{
+                position: relative;
+                left: 30vw;
+                bottom: -5vh;
+            }
+            #how_allText a{
+                padding-left: 30px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                text-align: center;
+                color: #FF6115;
+            }
+            #CanYou{
+                width: 98vw;
+                height: 44vw;
+                position: absolute;
+                top:402vh;
+            }
+            #question2{
+                position: absolute;
+                width: 405px;
+                height: 90px;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 150%;
+                padding-left: 8vw;
+            }
+            #CanYou_littleText{
+                position: absolute;
+                width: 359px;
+                height: 33px;
+                top: 11vw;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 33px; 
+                padding-left: 8vw;
+            }
+            #CanYou_bigText{
+                position: absolute;
+                width: 509px;
+                height: 58px;
+                top: 40vh;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 160%;
+                padding-left: 8vw;
+            }
+            #CanYou button{
+                left:8vw;
+                bottom: 25vh;
+            }
+            #Clients{
+                width: 98vw;
+                height: 45vw;
+                position: absolute;
+                top:480vh;
+            }
+            #Clients_smallText{
+                padding-left: 12vw;
+                width: 895px;
+                height: 63px;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 63px;
+            }
+            #main_image{
+                padding-left:3vw;
+                position: absolute;
+                bottom: 10vh;
+            }
+            #Clients_right{
+                position: absolute;
+                left: 45vw;
+                top: 33vh;
+                width:40vw;
+                height: 60vh;
+            }
+            #DoYouLike{
+                position: absolute;
+                top: -5vh;
+                width: 333px;
+                height: 38px;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 38px;
+            }
+            #YouCanAgain{
+                position: absolute;
+                width: 450px;
+                height: 33px;
+                top: 5vh;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 33px;
+            }
+            #actions{
+                position: absolute;
+                top: 17vh;
+                left: -1vw;
+            }
+            #actionIs, #actionIs1{
+                position: absolute;
+                width: 589px;
+                height: 25px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25px;
+            }
+            #actionIs1{
+                top:13vh;
+            }
+            #button_go{
+                position: absolute;
+                top: 48vh;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                background: #FF6115;
+                border-radius: 5px;
+                border: none;
+                padding: 10px 25px;;
+            }
+            #new{
+                position:absolute;
+                left: 30vw;
+                top: -16vh;
+            }
+            .slider {
+                position: absolute;
+                top: 4vh;
+                left: 60vw;
+                max-width: 400px;
+            }
+            .slider__items {
+                counter-reset: slide;
+            }
+            .slider__item {
+                position: relative;
+                counter-increment: slide;
+            }
+            .img-fluid {
+                display: inline-block;
+                height: auto;
+                max-width: 100%;
+            }
+            #HowManyOrders{
+                position: absolute;
+                height: 63px;
+                position: absolute;
+                top: 585vh;
+                left: 25vw;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 63px;
+            }
+            #delivery{
+                width: 98vw;
+                height: 45vw;
+                position: absolute;
+                top:610vh;
+            }
+            #delivery_topic{
+                position: absolute;
+                width: 541px;
+                height: 30px;
+                left: 27vw;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+            }
+            #delivery_left{
+                position: absolute;
+                left: 7vw;
+                top:23vh;
+                width: 40vw;
+                height: 60vh;
+            }
+            #delivery_left1, #delivery_left2{
+                margin-bottom: 50px;
+                width: 302px;
+                height: 116px;
+                background: #2F333D;
+            }
+            #delivery_left1 img, #delivery_left2 img{
+                margin: 30px;
+            }
+            #delivery_left1 p, #delivery_left2 p{
+                position: absolute;
+                width: 173px;
+                height: 44px;
+                font-family: 'Open Sans';
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+            #delivery_left1 p{
+                top: 23px;
+                left: 10vw;
+            }
+            #delivery_left2 p{
+                bottom: 24vh;
+                left: 10vw;
+            }
+            #delivery_left1 span, #delivery_left2 span{
+                color: #FF6115;
+            }
+            #image_car{
+                position: absolute;
+                left: 45vw;
+                top: 30vh;
+            }
+            #bacteria_text{
+                position: absolute;
+                left: 4vw;
+                top: -4px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+            }
+            #bacteria_information{
+                width: 500px;
+                position: absolute;
+                left: 50vw;
+                top: 16vh;   
+            }
+            #select_wrp{
+                font-size: 14px;
+                position: relative; 
+                padding: 15px 20px;
+            }
+            #price_text{
+                position: absolute;
+                width: 358px;
+                height: 25px;
+                top: 78vh;
+                left:7vw;
+                font-family: 'Open Sans';
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 25px;
+            }
+            #address{
+                width: 270px;
+                height: 44px;
+                position: absolute;
+                top: 87vh;
+                left: 7vw;
+            }
+            #button_know{
+                position: absolute;
+                left: 26vw;
+                top: 87vh;
+                padding: 10px 20px;
+                background: #FF6115;
+                border-radius: 5px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 25px;
+                border: none;
+            }
+            #PromoCode{
+                width: 100vw;
+                height: 100vh;
+                background-image: url('img/pepper.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                position: absolute;
+                top: 715vh;
+            }
+            #DeliciousDiscount{
+                width: 500px;
+                height: 400px;
+                margin: 230px 0px 0px 170px;
+            }
+            #DeliciousDiscount_text1{
+                padding-left: 120px;
+                width: 208px;
+                height: 30px;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+                color: #FFFFFF;
+            }
+            #DeliciousDiscount_text2{
+                padding: 30px 120px;
+                width: 350px;
+                height: 50px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF;
+            }
+            #email{
+                margin-left: 120px;
+                border: #FF6115 1px solid;
+                border-radius: 5px;
+                width: 350px;
+                height: 40px;
+            }
+            #get_a_discount{
+                margin: 30px 120px;
+                background: #FF6115;
+                border-radius: 5px;
+                width: 350px;
+                height: 40px;
+            }
+            #PromoCode_discount{
+                position: absolute;
+                bottom: 60vh;
+                left:5vw;
+            }
+            #HowManyFamilies{
+                position: absolute;
+                width: 558px;
+                height: 63px;
+                left: 34vw;
+                top: 840vh;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 30px;
+            }
+            #SocialNetwork{
+                width: 100vw;
+                height: 100vh;
+                position: absolute;
+                top: 865vh;
+            }
+            #SocialNetwork_text1{
+                position: absolute;
+                width: 626px;
+                height: 33px;
+                left: 31vw;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 33px;
+            }
+            #SocialNetwork_text2{
+                position: absolute;
+                left: 45vw;
+                top:10vh;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+            }
+            #SocialNetwork div img{
+                position: absolute;
+                top: 20vh;
+            }
+            #SocialNetwork_text3{
+                position: absolute;
+                width: 567px;
+                height: 30px;
+                left: 33vw;
+                top: 78vh;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+            }
+            footer{
+                position: absolute;
+                top: 980vh;
+                width: 100vw;
+                height: 50vh;
+                background: #2F333D;
+            }
+            #footer_top div{
+                position: absolute;
+                width: 378px;
+                height: 27px;
+                left: 75px;
+                top: 25.41px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                color: #FFFFFF;
+            }
+            #footer_top input{
+                position: absolute;
+                top: 3vh;
+                left: 26vw;
+            }
+            #footer_top button{
+                position: absolute;
+                top: 3vh;
+                left: 58vw;
+                font-family: 'Open Sans';
+                width: 110px;
+                height: 40px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                color: #F5F5F5;
+                background: #2F333D;
+                border: 2px solid #FF6115;
+                border-radius: 5px;
+            }
+            footer table{
+                margin-left: 75px;
+                position: absolute;
+                top:15vh;
+                width: 100vw;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 16px;   
+                color: #FFFFFF;
+            }
+            #tr_one{
+                width: 181px;
+                height: 23px;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+            }
+            #tr_two td,#tr_five td{
+                padding-top: 40px;
+            }
+            #number{
+                font-family: 'Open Sans';
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 27px;
+            }
+            #call_me{
+                font-size: 18px;
+                line-height: 25px;
+                text-decoration: underline;
+                text-decoration-color: #FF6115;  
+            }
+            #tr_five td{
+                text-decoration: underline;
+            }

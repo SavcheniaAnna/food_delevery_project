@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Roboto&display=swap');
+        *{
+            margin: 0px;
+        }
+        html {
+            overflow-x:  hidden;
+        }
+        body{
+            display: block;
+            margin: 0px;
+            background-color: #E5E5E5;
+        }
+        #first_main_part{
+                width: 100vw;
+                height: 100vh;
+                background-image: url('img/menu_main_background.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            #menu{
+                
+                background-color: black;
+                opacity: 0.7;
+                height: 10%;
+                
+            }
+            #navbar li, #navbar_seconde li { display: inline;}
+
+            #navbar a{
+                padding: 15px 100px;
+                text-decoration: none;
+                color:white;
+                
+                display: inline-block;
+                font-family: 'Roboto', sans-serif;
+            }
+            #icon{
+                position: relative;
+                left: 60px;
+                bottom: -5px;
+            }
+            #account{
+                position: relative;
+                left: 1240px; 
+                bottom: 53px;
+                  
+            }
+            #main_text{
+                position: absolute;
+                left: 720px;
+                top: 22vh;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 30px;
+            }
+            #text{
+                margin-top: 2vh;
+                position: absolute;
+                top: 33vh;
+                left: 23vw;
+                width: 57vw;
+            }
+            #navbar_seconde a{
+                color: black;
+                padding-left: 50px;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 26px;
+                text-decoration: none;
+                display: inline-block;}
+            #text_first, #text_seconde{
+                text-align: center;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 23px;
+            }
+            #text_first{
+                padding-bottom: 4vh;
+                padding-top: 6vh;
+            }   
